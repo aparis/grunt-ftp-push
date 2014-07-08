@@ -1,4 +1,4 @@
-# grunt-ftp-push
+# grunt-ftp-push-fullpath
 
 > Deploy your files to a FTP server <br>
 > Notice: Currently SFTP is not supported
