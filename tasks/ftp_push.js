@@ -35,7 +35,7 @@ module.exports = function(grunt) {
 
   var uploadFiles = function(files) {
     var file = tempFile = files.pop(),
-      path = options.dest + ((file.search("/") > -1) ? file.split("/").slice(1).join("/") : file);
+      path = options.dest +  file;
 
     if (grunt.file.isDir(file)) {
       ftpServer.raw.mkd(path,function(err, data) {
