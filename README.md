@@ -9,13 +9,13 @@ This plugin requires Grunt `~0.4.1`
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
 ```shell
-npm install grunt-ftp-push --save-dev
+npm install grunt-ftp-push-fullpath --save-dev
 ```
 
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks('grunt-ftp-push');
+grunt.loadNpmTasks('grunt-ftp-push-fullpath');
 ```
 
 ## The "ftp_push" task
@@ -139,5 +139,6 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release History
 <ul>
+<li>2014/07/08 - v 0.2.3 &nbsp; Use full path whe uploading files</li>
 <li>2014/07/03 - v 0.2.0 &nbsp;<a href='https://github.com/Robert-W/grunt-ftp-push/issues/6' target='_blank'>#6</a>&nbsp; Fixed issue with pushing files from root directory when cwd is set to '.' or './'</li>
 </ul>
