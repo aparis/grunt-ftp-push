@@ -1,23 +1,23 @@
 {
   "name": "grunt-ftp-push",
   "description": "Deploy your files to a FTP server,",
-  "version": "0.2.0",
-  "homepage": "http://robert-w.github.io/grunt-ftp-push",
+  "version": "0.2.1",
+  "homepage": "https://github.com/aparis/grunt-ftp-push",
   "author": {
-    "name": "Robert Winterbottom",
-    "email": "Robbie.Winterbottom@gmail.com"
+    "name": "Albert Paris",
+    "email": "aparis@anoopsystems.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Robert-W/grunt-ftp-push.git"
+    "url": "git://github.com/aparis/grunt-ftp-push.git"
   },
   "bugs": {
-    "url": "https://github.com/Robert-W/grunt-ftp-push/issues"
+    "url": "https://github.com/aparis/grunt-ftp-push/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://robert-w.github.io/grunt-ftp-push/blob/master/LICENSE-MIT"
+      "url": "https://github.com/aparis/grunt-ftp-push/blob/master/LICENSE-MIT"
     }
   ],
   "main": "Gruntfile.js",
