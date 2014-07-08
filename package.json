@@ -1,23 +1,23 @@
 {
-  "name": "grunt-ftp-push",
+  "name": "grunt-ftp-push-fullpath",
   "description": "Deploy your files to a FTP server,",
-  "version": "0.2.1",
-  "homepage": "https://github.com/aparis/grunt-ftp-push",
+  "version": "0.2.2",
+  "homepage": "https://github.com/aparis/grunt-ftp-push-fullpath",
   "author": {
     "name": "Albert Paris",
     "email": "aparis@anoopsystems.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/aparis/grunt-ftp-push.git"
+    "url": "git://github.com/aparis/grunt-ftp-push-fullpath.git"
   },
   "bugs": {
-    "url": "https://github.com/aparis/grunt-ftp-push/issues"
+    "url": "https://github.com/aparis/grunt-ftp-push-fullpath/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/aparis/grunt-ftp-push/blob/master/LICENSE-MIT"
+      "url": "https://github.com/aparis/grunt-ftp-push-fullpath/blob/master/LICENSE-MIT"
     }
   ],
   "main": "Gruntfile.js",
@@ -40,6 +40,7 @@
   "keywords": [
     "gruntplugin",
     "grunt-ftp-push",
+    "grunt-ftp-push-fullpath",
     "ftp"
   ]
 }
